@@ -1,0 +1,19 @@
+git_token.txt
+
+outputs/
+data/
+
+src/test.cpp
+include/test.hpp
+
+# Ignore compiled executables
+bin/
+*.exe
+*.dll
+
+# Ignore build directories and CMake artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
